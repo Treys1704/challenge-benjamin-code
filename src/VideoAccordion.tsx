@@ -93,8 +93,8 @@ export default function VideoAccordion() {
     }, [activeIndex, handleVideoEnded])
 
     return (
-        <div className="max-w-6xl mx-auto p-6 grid grid-cols-2 gap-6">
-            <div className="space-y-4">
+        <div className="max-w-6xl mx-auto p-6 sm:p-8 grid lg:grid-cols-2 md:grid-cols-2 gap-6">
+            <div className="space-y-3">
                 {items.map((item, index) => (
                     <motion.div
                         key={item.id}
